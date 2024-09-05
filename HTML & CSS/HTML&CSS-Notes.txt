@@ -1,0 +1,181 @@
+Full Stack: Frontend and Backend and Database and Deployement called as 
+fullStack
+
+-> Frontend(UI):
+    * HTML, CSS, BootStrap, JavaScript, React, Angular, Vue JavaScript
+
+-> Backend:
+   * Node JS, Java, Dotnet, Python, Php etc.
+
+-> Database:
+   * MySQL, SQL, Oracle, No-SQL: MongoDB
+
+-> Deployement:
+   * DevOps Cycle:
+      - GIT, CI/CD pipeline, Docker and Kubernetes
+      - AWS, Azure, GCP etc.
+
+
+-> What is Ajax?
+
+AJAX = Asynchronous JavaScript And XML.
+
+AJAX is a developer's dream, because you can:
+
+    * Update a web page without reloading the page
+    * Request data from a server - after the page has loaded
+    * Receive data from a server - after the page has loaded
+    * Send data to a server - in the background
+
+-> AJAX is not a programming language.
+
+-> AJAX is a technique for accessing web servers from a web page.
+
+-> AJAX stands for Asynchronous JavaScript And XML.
+
+-> AJAX just uses a combination of:
+
+A browser built-in XMLHttpRequest object (to request data from a web server)
+JavaScript and HTML DOM (to display or use the data)
+AJAX is a misleading name. AJAX applications might use XML to transport data, but it is equally common to transport data as plain text or JSON text.
+
+AJAX allows web pages to be updated asynchronously by exchanging data with a web server behind the scenes. This means that it is possible to update parts of a web page, without reloading the whole page.
+
+-> https://www.w3schools.com/xml/ajax.gif
+
+-> HTML: Hyper Text Markup Language
+
+* Latest Version: HTML5
+* extension is .html
+* It is not a case sensitive
+* We write code in tags
+  <>
+* Every tag must be closed.
+   <html></html>
+   <br />
+The basic syntax html is:
+
+   <!DOCTYPE html>
+      <html>
+         <head>
+            //We define the title, meta tags, styles, scripts
+         </head>
+         <body>
+            // Here we create a whole document or webpage.
+         </body>
+      </html>
+
+-> Any of programming comments plays to describe a code.
+HTML Comment is: <!-- -->
+CSS Comment is : //
+
+IDE/Editor:
+
+Download and Install: https://code.visualstudio.com/download
+
+VSCOD: Visual Studio Code.
+
+-> Extension (live Server): Install live server in VSCODE.
+
+-> Head Section:
+   -> title tag: To display title in title bar (SEO) Search Engine Optimzation.
+   -> Meta tags: SEO purpose.
+   -> styles: CSS
+   -> scripts: JavaScript
+
+-> Body Section: It is a main section where the whole page is created.
+
+
+    * h1 to h6 (Heading Tags)
+    * h1: largest
+    * h6: smallest
+    * Paragraph <p> </p>
+    * Horizontal Line <hr />
+    * Break  or New Line <br />
+
+-> Insert Image: <img src="image path" alt="description" />
+
+=================================================================================
+
+List: It is a collection of items.
+
+1. Ordered List <ol></ol>
+   a b c
+   A B c
+   1 2 3 (default)
+   I II III
+   i ii iii
+2. Unordered List <ul></ul>
+   disc (default)
+   square
+   circle
+
+-> To add item in list is: <li></li>
+
+<h3>Ordered List</h3>
+    <ol type="i">
+      <li>Ravi</li>
+      <li>Rakesh</li>
+      <li>Sai</li>
+    </ol>
+    <hr />
+
+<h3>Unordered List</h3>
+    <ul type="circle">
+      <li>Ravi</li>
+      <li>Rakesh</li>
+      <li>Sai</li>
+    </ul>
+    
+=====================================================================
+Hyperlink:-  It is a process to navigate one page into another.
+
+Anchor tag (<a>):
+eg:
+<a href="first.html"> text </a>
+
+======================================================================
+
+Table tags: A collection of rows and column
+<table> </table>
+row: <tr> </tr>
+column: <td> </td> or <th> </th>
+<thead>
+<tbody>
+======================================================================
+Stylesheet: Used for look and feel of the applications
+
+ --> Types of Styles:
+     1. Inline: Call in any tag with style attribute
+     eg: <h2 style="color: 'red' ; border: 2px solid green"> --- </h2>
+     2. Internal (Embedded): We define in head section.
+     eg:
+      
+     3. External (CSS): Cascading Style Sheet. First we create (.css) file and link
+     that file in our web page:
+      eg:
+        
+         styles.css:
+            h1{
+
+            }
+
+            home.html:
+            <html>
+               <head>
+                  <link rel="stylesheet" href="./styles.css" />
+               </head>
+               <body>
+                  ----
+               </body>
+            </html>
+
+   -> Way of preference
+      
+      * Inline -> Internal -> External
+
+
+
+
+
+

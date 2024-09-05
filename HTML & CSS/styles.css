@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(184, 172, 172);
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+a {
+  color: chocolate;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
